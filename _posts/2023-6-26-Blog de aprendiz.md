@@ -11,3 +11,5 @@ title: Día uno como aprendiz de Desarrollo Web
 * Hace que se pueda escribir código con menos errores, es más sencillo, coherente y fácil de probar, en definitiva, más limpio y sólido.
 * Es un super conjunto de JavaScript **todo el código escrito en JS es válido para TS**.
 * Para más información, leer [TS vs JS](https://profile.es/blog/que-es-typescript-vs-javascript/)
+## Revisar [Prisma](https://www.prisma.io/docs/getting-started/quickstart)
+* Para conocer como se hace el esquema de BD
