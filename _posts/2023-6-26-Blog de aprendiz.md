@@ -80,5 +80,5 @@ title: Blog de un aprendiz de Desarrollo Web
   * GraphQL es un lenguaje de consulta para APIs. En lugar de enviar múltiples peticiones independientes (por ejemplo, una para la lista de usuarios, otra para sus roles, otra para su empresa), GraphQL permite a los clientes hacer una sola petición, y obtener la respuesta con todos los campos que necesitan.
   * **REST es genial, pero tiene algunas limitaciones. Una de las más importantes es que no es ideal para consultar grandes conjuntos de datos. Ahí es donde entra GraphQL, GraphQL es un lenguaje de consulta para APIs, similar a SQL para bases de datos relacionales.**
 ## Hasura
-* Hasura es un proyecto de código abierto que conecta nuestras bases de datos y microservicios brindándonos de manera instantánea una API GraphQL lista para producción sin apenas codificar.
-* Hasura te ayuda a crear aplicaciones GraphQL respaldadas por Postgres o de manera gradual permite migrar a aplicaciones GraphQL desde aplicaciones que usan Postgres
+  * Hasura es un proyecto de código abierto que conecta nuestras bases de datos y microservicios brindándonos de manera instantánea una API GraphQL lista para producción sin apenas codificar.
+* Hasura te ayuda a crear aplicaciones GraphQL respaldadas por Postgres o de manera gradual permite migrar a aplicaciones GraphQL desde aplicaciones que usan Postgres.
