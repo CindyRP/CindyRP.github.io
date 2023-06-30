@@ -57,5 +57,9 @@ title: Blog de un aprendiz de Desarrollo Web
   * *Los sistemas grandes están compuestos de otros más pequeños y por lo tanto dependen de las propiedades Reactivas de sus partes.*
 ## Serverless
 * Sin servidor, es una solución que permite crear y ejecutar aplicaciones con rapidez y menor costo total de propiedad, ya que no es necesario aprovisionar y administrar infraestructura.
+* Con una arquitectura Serverless podemos procesar miles de peticiones, hasta millones, sin pensar en la capacidad de recursos necesarios para que la aplicación funcione correctamente, la escalabilidad está garantizada.
+  * Para entender mejor: [Que es serverless?](https://www.youtube.com/watch?v=-ci7EwXaIJg)
 ## API REST / GraphQL
+* **Qué es?**
+  * Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos.
 ## Hasura
