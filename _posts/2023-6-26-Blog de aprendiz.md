@@ -60,6 +60,25 @@ title: Blog de un aprendiz de Desarrollo Web
 * Con una arquitectura Serverless podemos procesar miles de peticiones, hasta millones, sin pensar en la capacidad de recursos necesarios para que la aplicación funcione correctamente, la escalabilidad está garantizada.
   * Para entender mejor: [Que es serverless?](https://www.youtube.com/watch?v=-ci7EwXaIJg)
 ## API REST / GraphQL
-* **Qué es?**
+* **Qué es API?**
   * Las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos.
+* **Qué significa API?**
+  * API significa “interfaz de programación de aplicaciones”. En el contexto de las API, la palabra aplicación se refiere a cualquier software con una función distinta.
+  * La interfaz puede considerarse como un contrato de servicio entre dos aplicaciones. Este contrato define cómo se comunican entre sí mediante solicitudes y respuestas. La documentación de su API contiene información sobre cómo los desarrolladores deben estructurar esas solicitudes y respuestas.
+* **Cómo funcionan las API?**
+  * La arquitectura de las API suele explicarse en términos de cliente y servidor. La aplicación que envía la solicitud se llama cliente, y la que envía la respuesta se llama servidor.
+* *API REST:*
+  * REST significa transferencia de estado representacional. REST define un conjunto de funciones como GET, PUT, DELETE, etc. que los clientes pueden utilizar para acceder a los datos del servidor. Los clientes y los servidores intercambian datos mediante HTTP.
+  * La principal característica de la API de REST es que no tiene estado. La ausencia de estado significa que los servidores no guardan los datos del cliente entre las solicitudes.
+* *Qué es GraphQL?*
+  * GraphQL es un lenguaje de consulta desarrollado específicamente para las API. Prioriza dar a los clientes exactamente los datos que solicitan y nada más.
+  * GraphQL proporciona una sintaxis flexible e intuitiva para describir los requisitos de datos y las interacciones.
+  * Permite a los desarrolladores pedir exactamente lo que se necesita y recuperar resultados predecibles.
+  * Permite que los desarrolladores creen consultas para extraer datos de varias fuentes en una sola llamada a la API.
+  * GraphQL es fundamental para el funcionamiento de Facebook. Usar Facebook significa usar GraphQL.
+  * Es un lenguaje tipado. Esto significa que utiliza tipos para definir recursos, añade tipos a los campos de cada recurso. También utiliza tipos para comprobar estáticamente los errores.
+  * GraphQL es un lenguaje de consulta para APIs. En lugar de enviar múltiples peticiones independientes (por ejemplo, una para la lista de usuarios, otra para sus roles, otra para su empresa), GraphQL permite a los clientes hacer una sola petición, y obtener la respuesta con todos los campos que necesitan.
+  * **REST es genial, pero tiene algunas limitaciones. Una de las más importantes es que no es ideal para consultar grandes conjuntos de datos. Ahí es donde entra GraphQL, GraphQL es un lenguaje de consulta para APIs, similar a SQL para bases de datos relacionales.**
 ## Hasura
+* Hasura es un proyecto de código abierto que conecta nuestras bases de datos y microservicios brindándonos de manera instantánea una API GraphQL lista para producción sin apenas codificar.
+* Hasura te ayuda a crear aplicaciones GraphQL respaldadas por Postgres o de manera gradual permite migrar a aplicaciones GraphQL desde aplicaciones que usan Postgres
